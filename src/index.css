@@ -1,0 +1,91 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.app
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.calculator
+{
+  margin-top: 100px;
+  width: auto;
+}
+.container
+{
+  background: rgb(58, 10, 58);
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap; 
+  box-shadow: 0px 0px 64px 0px;
+  
+}
+.output{
+  padding: 10px 20px;
+  background:rgb(58, 10, 58);;
+  width: 100%;
+  justify-self: start;
+  color: white;
+  text-align:right ;
+  font-size: 30px;
+
+}
+.output span {
+  font-size: 20px;
+  color: #888;
+}
+
+button
+{
+  appearance: none;
+  border: none;
+  background: rgb(58, 10, 58);
+  color: white;
+}
+button:hover
+{
+  opacity: 0.9;
+}
+.operators
+{
+  width: 100%;
+}
+
+.numbers,.operators {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  width: 100%;
+
+}
+
+.operators > button
+{
+  flex: 1 1 ;
+  height: 50px;
+  background: rgb(95, 11, 95);
+}
+.numbers > div {
+  width: 33.3333%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  
+}
+.btn
+{
+  width: 100%;
+  height: 100%;
+}
